@@ -1,0 +1,150 @@
+.createarticle {
+    margin-left: 2rem;
+}
+.createarticle>input{
+    color: white;
+    cursor: pointer;
+    padding: 0.5rem;
+    border: 0.1rem solid orangered;
+    border-radius: 0.2rem;
+    background:orangered;
+    font-family: 'Quicksand', sans-serif;
+}
+.createarticle>input:hover{
+    color: orangered;
+    background:white;
+}
+.filtro {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.filtro input, .filtro select {
+    padding: 5px;
+    margin-left: 0.2rem;
+}
+
+.artForum {
+    margin-top: 1rem;
+    box-shadow: 0 0 2px 0 grey;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    display: flex;
+    width: 100%;
+}
+.artForum a {
+    width: 83%;
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+}
+.artForum p {
+    width: 100%;
+}
+/* .artForum a img {
+    width: 5rem;
+    height: 5rem;
+    margin-right: 0.4rem;
+    border: 1px dashed grey;
+} */
+.artForum a div {
+    width: 100%;
+}
+.artForum a h2 {
+    width: 100%;
+    font-size: 1.3rem;
+}
+.artForum a p {
+    width: 100%;
+    font-size: 0.9rem;
+    text-align: justify;
+}
+
+.usuario {
+    width: 15%;
+    margin-left: 0.4rem;
+    padding-left: 0.4rem;
+    border-left: 1px solid grey;
+}
+.usuario div p {
+    text-align: center;
+}
+
+.comentarios {
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: none;
+    padding: 0;
+    max-height: 30rem;
+}
+.comentarios > h2 {
+    margin-top: 1.2rem;
+    text-align: center;
+    color: orangered;
+    border-bottom: 1px solid orangered;
+    width: 100%;
+}
+
+.criarArtigoForum {
+    width: 100%;
+}
+.criarArtigoForum input:not([type=submit]), .criarArtigoForum textarea {
+    padding: 5px;
+    width: calc(100% - 12px);
+    margin-top: 1rem;
+    resize: none;
+}
+.criarArtigoForum input[type=submit] {
+    padding: 5px;
+    display: block;
+    margin: 0.5rem auto 0 auto;
+}
+
+.comentario {
+    width: 100%;
+}
+.comentario textarea {
+    width: calc(100% - 12px);
+    padding: 5px;
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    resize: none;
+}
+.comentario input[type=submit] {
+    padding: 5px;
+    display: block;
+    margin: 0.5rem auto 0 auto;
+}
+
+@media screen and (max-width: 750px) {
+
+    .filtro {
+        padding: 0.5rem;
+    }
+
+    .artForum {
+        margin: 0.5rem;
+        flex-wrap: wrap;
+    }
+    .artForum:first-of-type {
+        margin-top: 1rem;
+    }
+    .artForum a {
+        width: 100%;
+    }
+    .artForum .usuario {
+        width: 100%;
+        margin: 0;
+        border: none;
+        border-top: 1px solid grey;
+    }
+
+    .criarArtigoForum {
+        padding: 0.5rem;
+    }
+
+    .comentario {
+        padding: 0.5rem;
+    }
+}

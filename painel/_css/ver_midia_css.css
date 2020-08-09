@@ -1,0 +1,14 @@
+#redes
+{
+ margin-top: 40px;
+ width: 100%;
+ background-color: #;
+ display: inline-block;
+}
+
+#redes img
+{
+	width: 300px;
+	height: 500px;
+	border-radius: 5px;
+}

@@ -1,0 +1,34 @@
+.info_art {
+    margin-top: 12rem;
+}
+
+section > article {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 auto;
+}
+section  > article > h1 {
+	width: 100%;
+	border-bottom: 2px solid orangered;
+	color: orangered;
+	text-align: center;
+}
+section > article > img {
+	width: 10rem;
+	height: 12rem;
+	margin: 1rem auto;
+}
+section > article > p {
+	width: 75ch;
+	max-width: 100%;
+	text-align: justify;
+}
+
+@media screen and (max-width: 750px) {
+	section > article {
+		width: calc(100% - 0.5rem);
+	}
+}

@@ -1,0 +1,10 @@
+#sec_art {
+    margin-bottom: 30px;
+}
+
+.art h2 {
+    text-align: center;
+}
+.art h2 a {
+    color: orangered;
+}
